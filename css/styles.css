@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+}
+
+.nav-logo {
+    padding: 5px;
+    margin: 10px;
+}
+
+.nav-menu {
+    margin: auto;
+}
+
+.nav-item {
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    border-bottom: 2px solid orange;
+}

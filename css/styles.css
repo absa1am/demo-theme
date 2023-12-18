@@ -75,7 +75,7 @@
     font-weight: bolder;
 }
 
-.services {
+.services, .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -83,13 +83,18 @@
     margin: 25px;
 }
 
-.service-item {
+.service-item, .project-item {
     width: 250px;
     height: 250px;
     margin: 20px;
     padding: 15px;
     border: 1px solid black;
     overflow: hidden;
+}
+
+.project-item {
+    width: 300px;
+    height: 400px;
 }
 
 .service-item:hover {
@@ -105,10 +110,29 @@
     color: black;
 }
 
-
-
 .service-item a img {
     width: 50px;
+}
+
+.project-item {
+    width: 400px;
+    border-style: none;
+    text-align: start;
+}
+
+.project-item h2 {
+    color: #009688;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.project-item:hover {
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .service-item p {

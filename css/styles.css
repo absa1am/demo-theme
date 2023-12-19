@@ -75,12 +75,17 @@
     font-weight: bolder;
 }
 
-.services, .projects {
+.services, .projects, .success {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 25px;
+}
+
+.success {
+    font-size: x-large;
+    background-color: whitesmoke;
 }
 
 .service-item, .project-item {
@@ -92,6 +97,19 @@
     overflow: hidden;
 }
 
+.success-item {
+    width: 250px;
+    height: 100px;
+    margin: 20px;
+    padding: 15px;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+}
+
+.success-item h2 {
+    color: #009688;
+}
+
 .project-item {
     width: 300px;
     height: 400px;
@@ -99,6 +117,10 @@
 
 .service-item:hover {
     background-color: black;
+}
+
+.success-item:hover {
+    border-bottom: 2px solid orange;
 }
 
 .service-item:hover > * {

@@ -1,2 +1,2 @@
-# demo-theme
-Demo template using HTML and CSS
+# landing-page
+Landing page template using HTML and CSS.

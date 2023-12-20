@@ -34,7 +34,7 @@
 
 .banner {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(/img/slide-14.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url('../img/slide-14.jpg');
     background-position: center;
     background-size: cover;
 }

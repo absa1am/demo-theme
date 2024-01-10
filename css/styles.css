@@ -230,7 +230,6 @@
 }
 
 .footer-item {
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
@@ -257,5 +256,10 @@
     .nav-item {
         display: block;
         margin: 5px 0;
+    }
+
+    .footer-item {
+        border-left: none;
+        border-bottom: 5px solid white;
     }
 }
